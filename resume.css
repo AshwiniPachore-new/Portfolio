@@ -1,0 +1,219 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30 103 169);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.name {
+    font-size: xx-large;
+    font-style: oblique;
+    margin-left: 20px;
+}
+.xyz {
+    gap: 25px;
+    font-size: large;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.img-fluid {
+    width: 1500px;
+    height: 450px;
+    border-radius: 10px;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-style: oblique;
+
+}
+
+
+
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    text-align: center; 
+    font-family: emoji;
+    margin-top: 10px;
+    
+} 
+.fa {
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.icons {
+    margin: 0;
+    font-size: 1.5rem; 
+    font-style: oblique;
+}
+.footer-social {
+    display: flex;
+    gap: 15px; 
+}
+
+
+
+
+
+.container{
+    font-style: oblique;
+}
+.last{
+    font-style: oblique;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.one{
+    background-color: #d1cfee;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.big-char{
+    font-size: xx-large;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.resume-header {
+    background-color: #0077b5;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.resume-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.resume-header p {
+    margin: 5px 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid #0077b5;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.resume-item {
+    margin-bottom: 15px;
+}
+
+.resume-item h5 {
+    margin-bottom: 5px;
+}
+
+.resume-item p {
+    margin: 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: 750px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.skills-list, .languages-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li, .languages-list li {
+    margin-bottom: 5px;
+}
+.body1{
+    background-color: #d4e3ec;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-bottom: 20px;
+
+    border-radius: 50px;
+}
+.container1{
+    border-radius: 30px;
+}
+.container2{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.photo {
+    flex: 0 0 150px; 
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 1; /
+}
+
+.aboutme{
+    margin-left: 485px;
+    margin-top: -54px;
+}
+.wholetext{
+    margin-top: 116px;
+}
+
